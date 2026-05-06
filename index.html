@@ -28,15 +28,28 @@
     </div>
 
     <div id="header">
-        <div id="searchBar">
-            <img src="Resources/magnify.svg" alt="">
-            <div id="bar"></div>
-            
+        <div class="header-top">
+            <div id="searchBar">
+                <img src="Resources/magnify.svg" alt="">
+                <div id="bar"></div>
+            </div>
+            <div class="header-user">
+                <img src="Resources/bell-ring.svg" alt="" class="header-icon">
+                <div class="avatar-container small cat">
+                    <img src="Resources/avatar-2.svg" alt="">
+                </div>
+                <p class="user-name">Morgan Oakley</p>
+            </div>
         </div>
-        <div id="name">
-            <div id="greeting">
-                <p>Hi there,</p>
-                <h1>Morgan Oackley(@morgan)</h1>
+        <div class="header-bottom">
+            <div class="user-info">
+                <div class="avatar-container large cat">
+                    <img src="Resources/avatar-2.svg" alt="">
+                </div>
+                <div id="greeting">
+                    <p>Hi there,</p>
+                    <h1>Morgan Oakley (@morgan)</h1>
+                </div>
             </div>
             <div id="add">
                 <button>New</button>
@@ -105,41 +118,61 @@
             </div>
         </div>
         <div id="announcements">
-            <p>Announcements</p>
-            <div class="announcement">
-                <p class="title"></p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates enim perferendis adipisci? Saepe, adipisci amet?</p>
-            </div>
-            <div class="announcement">
-                <p class="title"></p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis rem tempore nesciunt nihil rerum voluptates deleniti sit ullam suscipit aspernatur!</p>
-            </div>
-            <div class="announcement">
-                <p class="title"></p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In deserunt nihil dolor perferendis, quo natus.</p>
+            <h2>Announcements</h2>
+            <div id="container">
+                <div class="announcement">
+                    <p class="title"></p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates enim perferendis adipisci? Saepe, adipisci amet?</p>
+                </div>
+                <div class="announcement">
+                    <p class="title"></p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis rem tempore nesciunt nihil rerum voluptates deleniti sit ullam suscipit aspernatur!</p>
+                </div>
+                <div class="announcement">
+                    <p class="title"></p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In deserunt nihil dolor perferendis, quo natus.</p>
+                </div>
             </div>
         </div>
         <div id="trending">
-            <p>Trending</p>
-            <div class="trends">
-                <img src="Resources/avatar-1.svg" alt="">
-                <p class="tag">@tegan</p>
-                <p>World Peace Builder</p>
-            </div>
-            <div class="trends">
-                <img src="Resources/avatar-2.svg" alt="">
-                <p class="tag">@morgan</p>
-                <p>Super Cool Project</p>
-            </div>
-            <div class="trends">
-                <img src="Resources/avatar-3.svg" alt="">
-                <p class="tag">@kendall</p>
-                <p>Life Changing App</p>
-            </div>
-            <div class="trends">
-                <img src="Resources/avatar-4.svg" alt="">
-                <p class="tag">@alex</p>
-                <p>No Traffic Maker</p>
+            <h2>Trending</h2>
+            <div id="container">
+                <div class="trends">
+                    <div class="avatar-container dog">
+                        <img src="Resources/avatar-1.svg" alt="">
+                    </div>
+                    <div class="trend-details">
+                        <p class="tag">@tegan</p>
+                        <p>World Peace Builder</p>
+                    </div>
+                </div>
+                <div class="trends">
+                    <div class="avatar-container cat">
+                        <img src="Resources/avatar-2.svg" alt="">
+                    </div>
+                    <div class="trend-details">
+                        <p class="tag">@morgan</p>
+                        <p>Super Cool Project</p>
+                    </div>
+                </div>
+                <div class="trends">
+                    <div class="avatar-container hero">
+                        <img src="Resources/avatar-3.svg" alt="">
+                    </div>
+                    <div class="trend-details">
+                        <p class="tag">@kendall</p>
+                        <p>Life Changing App</p>
+                    </div>
+                </div>
+                <div class="trends">
+                    <div class="avatar-container penguin">
+                        <img src="Resources/avatar-4.svg" alt="">
+                    </div>
+                    <div class="trend-details">
+                        <p class="tag">@alex</p>
+                        <p>No Traffic Maker</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
